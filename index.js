@@ -1,6 +1,4 @@
-// Format raw ms to Years, Days, Hours, minutes, seconds, milliseconds. 
-
-function objectMS(milliseconds) {
+export function objectMS(milliseconds) {
     if (typeof milliseconds !== 'number') {
         return {
             days: 0,
@@ -20,7 +18,7 @@ function objectMS(milliseconds) {
     }
 }
 
-function formatMS(ms) {
+export default function formatMS(ms) {
     const parsed = objectMS(ms)
     const Formatted = []
     if (Math.trunc(parsed.days / 365) != 0) Formatted.push(`${Math.trunc(parsed.days / 365)}y`)
@@ -31,10 +29,4 @@ function formatMS(ms) {
     if (parsed.milliseconds != 0) Formatted.push(`${parsed.milliseconds}ms`)
 
     return Formatted.join(' ')
-}
-
-
-module.exports = {
-    objectMS,
-    formatMS
 }

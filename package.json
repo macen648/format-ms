@@ -1,0 +1,17 @@
+{
+  "name": "formatted-ms",
+  "version": "1.0.0",
+  "description": "Format raw **ms** to Years, Days, Hours, minutes, seconds, milliseconds.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macen648/formatted-ms.git"
+  },
+  "type": "module",
+  "author": "macen<3",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/macen648/formatted-ms/issues"
+  },
+  "homepage": "https://github.com/macen648/formatted-ms#readme"
+}
