@@ -1,7 +1,7 @@
 {
   "name": "formatted-ms",
-  "version": "1.0.0",
-  "description": "Format raw **ms** to Years, Days, Hours, minutes, seconds, milliseconds.",
+  "version": "1.0.1",
+  "description": "Format raw milliseconds to Years, Days, Hours, minutes, seconds, milliseconds. ",
   "main": "index.js",
   "repository": {
     "type": "git",
